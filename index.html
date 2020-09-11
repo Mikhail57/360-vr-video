@@ -14,5 +14,11 @@
         <!-- Using the asset management system. -->
         <a-videosphere src="#antarctica"></a-videosphere>
     </a-scene>
+    <script>
+        document.addEventListener("click", () => {
+            console.log("lol");
+            document.querySelector("#antarctica").play();
+        })
+    </script>
 </body>
 </html>
