@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample web-vr 360 photo</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <video id="antarctica" autoplay loop="true" src="https://video.360cities.net/new-gamer-x/01743846_Underwater_Diving_with_tiger_sharks_and_hammerhead._VR_360_Video-1920x960.mp4"> </video>
+        </a-assets>
+
+        <!-- Using the asset management system. -->
+        <a-videosphere src="#antarctica"></a-videosphere>
+    </a-scene>
+</body>
+</html>
